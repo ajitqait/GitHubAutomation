@@ -14,7 +14,7 @@ public class Check {
 public void main()
 {
 	System.out.println("Before Group");
-	Assert.assertFalse(true);
+//	Assert.assertFalse(true);
 }
 @BeforeGroups
 public void main1()

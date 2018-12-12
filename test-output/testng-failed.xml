@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.franconnect.test.Check">
+      <class name="com.franconnect.test.TestGuru99MultipleSession">
         <methods>
-          <include name="demo"/>
+          <include name="closeBrowser"/>
+          <include name="driver"/>
+          <include name="executSessionThree"/>
+          <include name="executeSessionTwo"/>
         </methods>
-      </class> <!-- com.franconnect.test.Check -->
+      </class> <!-- com.franconnect.test.TestGuru99MultipleSession -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
