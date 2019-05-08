@@ -1,33 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="11666" started-at="2018-12-12T05:34:19Z" finished-at="2018-12-12T05:34:30Z">
+  <suite name="TestSuite" duration-ms="25" started-at="2019-05-08T07:24:02Z" finished-at="2019-05-08T07:24:02Z">
     <groups>
+      <group name="demo">
+        <method signature="Check.demo()[pri:0, instance:com.franconnect.test.Check@3498ed]" name="demo" class="com.franconnect.test.Check"/>
+      </group> <!-- demo -->
     </groups>
-    <test name="Surefire test" duration-ms="11666" started-at="2018-12-12T05:34:19Z" finished-at="2018-12-12T05:34:30Z">
-      <class name="com.franconnect.test.TestGuru99MultipleSession">
-        <test-method status="PASS" signature="driver()[pri:0, instance:com.franconnect.test.TestGuru99MultipleSession@4e25147a]" name="driver" is-config="true" duration-ms="3119" started-at="2018-12-12T11:04:19Z" finished-at="2018-12-12T11:04:22Z">
+    <test name="testGuru" duration-ms="25" started-at="2019-05-08T07:24:02Z" finished-at="2019-05-08T07:24:02Z">
+      <class name="com.franconnect.test.Check">
+        <test-method status="PASS" signature="demo()[pri:0, instance:com.franconnect.test.Check@3498ed]" name="demo" duration-ms="12" started-at="2019-05-08T12:54:02Z" finished-at="2019-05-08T12:54:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driver -->
-        <test-method status="PASS" signature="executSessionOne()[pri:0, instance:com.franconnect.test.TestGuru99MultipleSession@4e25147a]" name="executSessionOne" duration-ms="5213" started-at="2018-12-12T11:04:22Z" finished-at="2018-12-12T11:04:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executSessionOne -->
-        <test-method status="PASS" signature="executSessionThree()[pri:0, instance:com.franconnect.test.TestGuru99MultipleSession@4e25147a]" name="executSessionThree" duration-ms="1922" started-at="2018-12-12T11:04:27Z" finished-at="2018-12-12T11:04:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executSessionThree -->
-        <test-method status="PASS" signature="executeSessionTwo()[pri:0, instance:com.franconnect.test.TestGuru99MultipleSession@4e25147a]" name="executeSessionTwo" duration-ms="1395" started-at="2018-12-12T11:04:29Z" finished-at="2018-12-12T11:04:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- executeSessionTwo -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.franconnect.test.TestGuru99MultipleSession@4e25147a]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-12-12T11:04:30Z" finished-at="2018-12-12T11:04:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.franconnect.test.TestGuru99MultipleSession -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- demo -->
+      </class> <!-- com.franconnect.test.Check -->
+    </test> <!-- testGuru -->
+  </suite> <!-- TestSuite -->
 </testng-results>

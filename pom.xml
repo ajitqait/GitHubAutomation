@@ -71,11 +71,10 @@
 				<version>2.19.1</version>
 				<inherited>true</inherited>
 				<configuration>
-					<forkMode>never</forkMode>
-					<skipTests>false</skipTests>
+					<suiteXmlFiles>
+						<suiteXmlFile>TestNG.xml</suiteXmlFile>
+					</suiteXmlFiles>
 				</configuration>
-				<!-- <configuration> <suiteXmlFiles> <suiteXmlFile>OpenBrowser.xml</suiteXmlFile> 
-					</suiteXmlFiles> </configuration> -->
 			</plugin>
 		</plugins>
 	</build>
